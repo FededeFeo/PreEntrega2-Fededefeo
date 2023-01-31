@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
+
+body {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+.header {
+    width: 100%;
+    height: auto;
+    }
+
+#inicio {
+    background-image: linear-gradient(#011638, rgb(183, 28, 28));
+    z-index: 1;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px white
+        /*borde*/
+}
+
+p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Barra navegacion*/
+
+.header {
+    max-width: 100%;
+}
+
+
+.menu__nav {
+    list-style-type: none;
+    /*Elimina puntos*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(183, 29, 29);
+    text-align: center;
+}
+
+.boton__menu {
+    float: left;
+}
+
+.boton__menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.boton__menu a:hover {
+    background-color: black;
+}
+
+#footer {
+    position: absolute;
+    margin-top: 15%;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgb(183, 28, 28), #011638);
+    font-size: medium;
+    padding: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Index */
+
+.nuestra__historia {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*Noticias*/
+
+.foto__noticias {
+    padding: 10px;
+    margin: auto;
+    display: block;
+    width: 30%;
+}
+
+.Noticias {
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.titulo__noticias {
+    padding: 5px;
+    font-size: 35px;
+}
+
+.texto__noticias {
+    color: #011638;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 2rem;
+}
+
+/*FOTOS*/
+
+.Fotos {
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.foto__bolson {
+    width: 250px;
+    height: 250px;
+}
+
+.foto__tandil {
+    width: 250px;
+    height: 250px;
+}
+
+.titulo__fotos {
+    padding: 5px;
+    font-size: 35px;
+}
+
+/*Educadores*/
+
+.grid-conteinerRAMAS {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    /*width: 550px;
+   height: 400px;*/
+    margin: 0 auto;
+    /*justify-content: center;
+   align-items: center;*/
+}
+
+.educadores{
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.categoria {
+    text-align: left;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.rama {
+    padding: 5px;
+    text-align: center;
+}
+
+.jefe__rama {
+    padding: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.dirigente {
+    text-align: center;
+}
+
+.imagen__rama {
+    padding: 10px;
+    margin: auto;
+    display: block;
+    width: 10%;
+}
+
+/*Contacto*/
+
+.contacto {
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.mapa {
+    width: 400px;
+    padding: 10px 10px;
+}
