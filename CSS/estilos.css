@@ -1,7 +1,7 @@
-* {
+/** {
     margin: 0;
     padding: 0;
-}
+}*/
 
 @import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
 
@@ -16,7 +16,7 @@ body {
 .header {
     width: 100%;
     height: auto;
-    }
+}
 
 #inicio {
     background-image: linear-gradient(#011638, rgb(183, 28, 28));
@@ -37,7 +37,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Barra navegacion*/
+/* Barra navegacion */
 
 .header {
     max-width: 100%;
@@ -46,7 +46,6 @@ p {
 
 .menu__nav {
     list-style-type: none;
-    /*Elimina puntos*/
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -70,6 +69,7 @@ p {
     background-color: black;
 }
 
+
 #footer {
     position: absolute;
     margin-top: 15%;
@@ -82,7 +82,6 @@ p {
     text-align: center;
     font-weight: bold;
 }
-
 
 /* Index */
 
@@ -124,23 +123,53 @@ p {
 
 .Fotos {
     text-align: center;
-    padding: 5px;
+    padding: 1px;
     font-size: 50px;
+}
+.Bolson{
+    margin: 20px;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .Bolson{
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr)
+    }
 }
 
 .foto__bolson {
-    width: 250px;
-    height: 250px;
-}
+    width: 100%;
+    height: auto;
+    }
+
+    .Tandil{
+        margin: 20px;
+        display: grid;
+      grid-template-columns: repeat(3, 1fr);
+     gap: 1rem;
+    }
+
+    @media (max-width: 768px) {
+        .Tandil{
+            display: grid;
+            margin: auto;
+            grid-template-columns: repeat(2, 1fr)
+        }
+    }
 
 .foto__tandil {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: auto;
 }
 
 .titulo__fotos {
     padding: 5px;
     font-size: 35px;
+    text-align: center;
 }
 
 /*Educadores*/
@@ -156,11 +185,22 @@ p {
    align-items: center;*/
 }
 
-.educadores{
+@media (max-width: 768px) {
+    .grid-conteinerRAMAS {
+        display: block;
+        margin: 0 auto;
+        align-items: end;
+        justify-items: center;
+    }
+}
+
+
+.educadores {
     text-align: center;
     padding: 5px;
     font-size: 50px;
 }
+
 
 .categoria {
     text-align: left;
@@ -176,6 +216,7 @@ p {
 
 .jefe__rama {
     padding: 5px;
+    font-weight: bold;
 }
 
 h4 {
@@ -184,13 +225,14 @@ h4 {
 
 .dirigente {
     text-align: center;
+    font-size: 30px;
 }
 
 .imagen__rama {
-    padding: 10px;
+    padding: 5px;
     margin: auto;
     display: block;
-    width: 10%;
+    width: 25%;
 }
 
 /*Contacto*/
