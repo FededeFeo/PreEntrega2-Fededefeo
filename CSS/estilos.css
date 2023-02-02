@@ -44,13 +44,14 @@ p {
 }
 
 
-.menu__nav {
+/*.menu__nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(183, 29, 29);
     text-align: center;
+    justify-content: center;
 }
 
 .boton__menu {
@@ -63,7 +64,7 @@ p {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+}*/
 
 .boton__menu a:hover {
     background-color: black;
@@ -126,15 +127,16 @@ p {
     padding: 1px;
     font-size: 50px;
 }
-.Bolson{
+
+.Bolson {
     margin: 20px;
     display: grid;
-  grid-template-columns: repeat(3, 1fr);
- gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 }
 
 @media (max-width: 768px) {
-    .Bolson{
+    .Bolson {
         display: grid;
         margin: auto;
         grid-template-columns: repeat(2, 1fr)
@@ -144,22 +146,22 @@ p {
 .foto__bolson {
     width: 100%;
     height: auto;
-    }
+}
 
-    .Tandil{
-        margin: 20px;
+.Tandil {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .Tandil {
         display: grid;
-      grid-template-columns: repeat(3, 1fr);
-     gap: 1rem;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr)
     }
-
-    @media (max-width: 768px) {
-        .Tandil{
-            display: grid;
-            margin: auto;
-            grid-template-columns: repeat(2, 1fr)
-        }
-    }
+}
 
 .foto__tandil {
     width: 100%;
